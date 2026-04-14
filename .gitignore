@@ -1,0 +1,44 @@
+# Repo root ignore rules for Earlsdwara Digital monorepo
+
+# Dependencies
+**/node_modules/
+
+# Next.js build output
+**/.next/
+**/out/
+**/build/
+**/.turbo/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files (keep templates)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Vercel
+**/.vercel/
+
+# Supabase local
+**/supabase/.temp/
+**/supabase/.branches/
+
+# Sanity build output
+apps/sanity/dist/
+
+# Sanity local runtime artifacts
+apps/sanity/.sanity/
+
+# Local brief extraction / source docs (keep private)
+docx_extract/
+

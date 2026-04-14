@@ -1,0 +1,10 @@
+/* Earlsdwara Digital */
+Site:      https://earlsdwara.digital
+Contact:   dwaraearls@gmail.com
+Phone:     +233 24 890 7887
+WhatsApp:  https://wa.me/233248907887
+
+Team:      Strategy, design, engineering, and growth
+Standards: Performance, accessibility (WCAG-oriented), SEO-first architecture
+
+Last update: 2026-04-14
