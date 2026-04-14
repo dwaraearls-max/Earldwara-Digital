@@ -3,7 +3,6 @@
   "framework": "nextjs",
   "installCommand": "cd apps/web && npm ci",
   "buildCommand": "cd apps/web && npm run build",
-  "devCommand": "cd apps/web && npm run dev",
-  "outputDirectory": "apps/web/.next"
+  "devCommand": "cd apps/web && npm run dev"
 }
 
