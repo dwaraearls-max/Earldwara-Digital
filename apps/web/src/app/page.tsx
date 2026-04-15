@@ -77,7 +77,7 @@ const insights = [
   { title: "Design systems that feel custom (not templated)", href: "/insights/custom-design-systems" },
 ];
 
-const clientMarks = ["Startups", "Retail", "Services", "Fashion", "SaaS", "Ghana & global"];
+const clientMarks = ["Startups", "Retail", "Services", "Fashion", "Ghana & global"];
 
 const testimonials = [
   {

@@ -47,42 +47,25 @@ export function SiteFooter() {
             <p className="mt-3 text-sm leading-6 text-muted">
               Websites, business sites, and e‑commerce — transparent {BRAND.currency} packages and senior execution.
             </p>
-            <div className="mt-5 flex flex-col gap-2">
-              <a
-                href={`mailto:${BRAND.email}`}
-                className="text-sm font-semibold text-fg hover:underline underline-offset-4"
-              >
-                {BRAND.email}
-              </a>
-              <a
-                href={`tel:${BRAND.phoneTel}`}
-                className="text-sm font-semibold text-fg hover:underline underline-offset-4"
-              >
-                {BRAND.phoneDisplay}
-              </a>
-              {social.linkedin || social.x || social.youtube ? (
-                <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold">
-                  {social.linkedin ? (
-                    <a href={social.linkedin} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
-                      LinkedIn
-                    </a>
-                  ) : null}
-                  {social.x ? (
-                    <a href={social.x} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
-                      X
-                    </a>
-                  ) : null}
-                  {social.youtube ? (
-                    <a href={social.youtube} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
-                      YouTube
-                    </a>
-                  ) : null}
-                </div>
-              ) : null}
-              <Link href="/contact" className="text-sm font-semibold text-accent-neon hover:underline underline-offset-4">
-                Get started →
-              </Link>
-            </div>
+            {social.linkedin || social.x || social.youtube ? (
+              <div className="mt-7 flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold">
+                {social.linkedin ? (
+                  <a href={social.linkedin} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
+                    LinkedIn
+                  </a>
+                ) : null}
+                {social.x ? (
+                  <a href={social.x} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
+                    X
+                  </a>
+                ) : null}
+                {social.youtube ? (
+                  <a href={social.youtube} className="text-muted2 hover:text-fg" rel="noopener noreferrer" target="_blank">
+                    YouTube
+                  </a>
+                ) : null}
+              </div>
+            ) : null}
           </div>
 
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-5">
